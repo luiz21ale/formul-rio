@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulário</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="informacoes">
+                <h1>FICOU COM DÚVIDA? <br>NOS MANDE UMA MENSAGEM!</h1>
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+            </div>
+
+            <div class="formulario">
+                <form id="formulario">
+                    <input class="input" type="text" id="username" name="username" placeholder="Nome Completo *">
+                    <span class="span">campo obrigatório</span>
+                    <br><br>
+
+                    <input class="input" type="email" id="email" name="email" placeholder="Email *"> 
+                    <span class="span">campo obrigatório</span>
+                    <br><br>
+
+                    <input class="input" type="number" id="numero" name="numero" placeholder="Telefone *">
+                    <span class="span">campo obrigatório</span>
+                    <br><br>
+
+
+                    <textarea class="input" id="mensagem" name="mensagem" rows="5"  placeholder="Mensagem *"></textarea>
+                    <span class="span">campo obrigatório</span>
+                    <br><br>
+
+                    <p class="mensagem-aviso valido">*campo obrigatório</p>
+
+                    <button class="btn">Emviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body> 
+</html>
